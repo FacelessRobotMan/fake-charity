@@ -1,0 +1,80 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.header{
+    border-radius: 25%;
+    text-align: center;
+    text-shadow: 0 0 25px brown;
+    font-size: 120px;
+    background-image: url(images/potatoesbg.webp);
+}
+body{
+    background-image: linear-gradient(to bottom, brown,black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+img {
+    height: 200px;
+}
+
+.contacts img{
+    height:75px;
+    float: left;
+}
+.contact {
+    display:flex;
+    justify-content:space-around;
+    color: ghostwhite;
+}
+.info p{
+    text-align: center;
+    color:ghostwhite;
+    font-size: large;
+}
+.donations{
+    color:ghostwhite;
+}
+.donations p{
+    text-align: center;
+    font-size: 40px;
+}
+.contactus {
+    font-size: 75px;
+    color:ghostwhite;
+    text-align: center;
+}
+.spudpics{
+    display:flex;
+    justify-content:center;
+}
+.address p{
+    font-size: 40px;
+    color:ghostwhite;
+    text-align: center;
+}
+.donate{
+    display:flex;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 1050px){
+    .header{
+      font-size:70px;
+      font-weight: bolder;
+      text-shadow: 0 0 9px;
+    }
+    .contact {
+      flex-direction: column;
+    }
+    .spudpics {
+      flex-direction: column;
+      justify-content: center;
+      width: auto;
+    }
+    .donate {
+      flex-direction: column;
+    }
+    
+  }
